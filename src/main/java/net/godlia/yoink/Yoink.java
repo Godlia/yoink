@@ -2,6 +2,7 @@ package net.godlia.yoink;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.godlia.yoink.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 //test
@@ -11,5 +12,6 @@ public class Yoink implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItem();
 	}
 }
